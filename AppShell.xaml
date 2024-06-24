@@ -24,6 +24,11 @@
             Title="Bench"
             ContentTemplate="{DataTemplate local:Bench}"
             Icon="{OnPlatform 'bench.png'}" />
+
+        <ShellContent
+            Title="Profile"
+            ContentTemplate="{DataTemplate local:Profile}"
+            Icon="{OnPlatform 'profile.png'}" />
     </TabBar>
 
 
